@@ -1,0 +1,11 @@
+.programmingCard {
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+.programmingCard > h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.programmingCard > p {
+  color: grey;
+}/*# sourceMappingURL=ProgrammingCard.css.map */

@@ -1,13 +1,13 @@
-@use "../../assets/sass/_variables.scss" as *;
+@use "@/assets/sass/variables" as *;
 
 .programmingCard {
   margin-bottom: 20px;
-  align-self: flex-start;  
-  >h2 {
+  align-self: flex-start;
+  > h2 {
     font-size: $tertiary-fontsize;
     font-weight: 500;
   }
   > p {
-    color: $secondary-color; 
+    color: $secondary-color;
   }
 }
