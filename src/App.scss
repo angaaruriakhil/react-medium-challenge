@@ -1,34 +1,31 @@
 // Utilities
-@import "./assets/sass/_variables.scss";
+@use "@/assets/sass/variables" as *;
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-size: $primary-fontsize; 
-  font-family: $primary-font; 
+  font-size: $primary-fontsize;
+  font-family: $primary-font;
 }
 
 .main-page {
   display: flex;
   flex-direction: column;
-  width: 100vw; 
-  height: 100vh; 
+  width: 100vw;
+  height: 100vh;
   align-items: center;
   margin: 0;
   padding: 0;
   &__content {
-    width: 65vw; 
-    display: flex; 
-    flex-direction: column; 
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
     &__cards {
-      display: flex; 
-      justify-content: space-between; 
+      display: flex;
+      justify-content: space-between;
       margin-top: 40px;
-      align-items: flex-start;   
+      align-items: flex-start;
     }
-  } 
+  }
 }
-
-
-

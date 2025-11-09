@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65vw;
+}
+.navbar__left-side__logo {
+  width: 200px;
+  height: 50px;
+}
+.navbar__left-side, .navbar__right-side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar__left-side__vertical-line {
+  height: 30px;
+  background-color: grey;
+  width: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbar__left-side__section-title {
+  font-size: 20px;
+}
+.navbar__right-side__items {
+  margin: 15px;
+}
+.navbar__right-side__sign-in {
+  color: green;
+}/*# sourceMappingURL=Nav.css.map */

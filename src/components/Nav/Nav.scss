@@ -1,35 +1,34 @@
-@use "../../assets/sass/_variables.scss" as *;
+@use "@/assets/sass/variables" as *;
 
 .navbar {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 65vw;
   &__left-side__logo {
     width: 200px;
-    height: 50px; 
+    height: 50px;
   }
-  &__left-side, &__right-side {
+  &__left-side,
+  &__right-side {
     display: flex;
-    justify-content: space-around; 
-    align-items: center; 
+    justify-content: space-around;
+    align-items: center;
   }
   &__left-side__vertical-line {
     height: 30px;
     background-color: $secondary-color;
-    width: 1px; 
-    margin-left: 10px; 
-    margin-right: 10px; 
+    width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   &__left-side__section-title {
-    font-size: 20px; 
+    font-size: 20px;
   }
   &__right-side__items {
-    margin: 15px; 
+    margin: 15px;
   }
   &__right-side__sign-in {
     color: $tertiary-color;
   }
 }
-
-
